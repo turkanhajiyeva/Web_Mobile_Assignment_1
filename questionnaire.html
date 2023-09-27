@@ -4,37 +4,60 @@
     <meta charset="UTF-8">
     <title>Questionnaire</title>
     <link rel="icon" type="image/x-icon" href="./icons/question.ico">
+    <link rel="stylesheet" href="questionnairecss.css">
 </head>
 
 <body>
     
 <form action="mailto:thajiyeva15574@ada.edu.az" method="post" enctype="multipart/form-data">
     <fieldset>
-        <legend>Answer the following questions:</legend>
+        <legend>Answer the following questions below:</legend>
 
-    <label for="fname">First Name:</label>
-    <input type="text" name="First Name" id="fname" required placeholder="Enter first name"> <br>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Please enter your first name">
+                
+                <br>
+                <br>
 
-    <label for="lname">Last Name:</label>
-    <input type="text" name="Last Name" id="lname" placeholder="Enter last name"> <br>
+            <label for="surname">Last Name:</label>
+            <input type="text" id="Surname" name="Surname" required placeholder="Please enter your last name">
+                
+                <br>
+                <br>
 
-    <label for="answer">What's your favorite color?</label>
-    <input type="text" name="Q1" id="answer"required placeholder="Enter your favorite color"> <br>
+            <label for="birth_date">Birth date:</label>
+            
+            <input type="date" id="birth_date" name="birth_date" required>
+                
+                <br>
+                <br>
+            
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="gender_male" name="gender" value="MALE" checked> <label for="gender_male">Male</label><br>
+            <input type="radio" id="gender_female" name="gender" value="FEMALE"> <labeL for="gender_female">Female</labeL><br>
+            <input type="radio" id="gender_other" name="gender" value="OTHER"> <label for="gender_other">Other</label><br>
 
-    <label for="answer">What's your dream career?</label>
-    <input type="text" name="Q2" id="answer"required placeholder="Enter your dream career"> <br>
+            <br>
+            <br>
+            <label for="Film_Genre">Which book genres do you like to read?</label>
 
-    <label for="answer">Who do you admire most and why?</label>
-    <input type="text" name="Q3" id="answer"required placeholder="Enter the person you admire most"> <br>
+            <br>
+            <br>
 
-    <label for="answer">What are you afraid of?</label>
-    <input type="text" name="Q4" id="answer"required placeholder="Enter what you are afraid of"> <br>
+            <label for="genre_adventure"> <input type="checkbox" name="genre" id="genre_adventure" value="Adventure">Adventure</label>
 
-    <label for="answer">What makes you laugh the most?</label>
-    <input type="text" name="Q5" id="answer" required placeholder="Enter what makes you laugh the most"> <br>
+            <label for="genre_fantasy"><input type="checkbox" name="genre" id="genre_fantasy" value="Fantasy++"> Fantasy</label>
 
-    <input type="submit" value="SUBSEND">
-</fieldset>
+            <label for="genre_comedy"> <input type="checkbox" name="genre" id="genre_comedy" value="Comedy">Comedy</label>
+
+            <label for="genre_dedective"> <input type="checkbox" name="genre" id="genre_dedective" value="Dedective">Dedective</label>
+
+            <label for="genre_romance"> <input type="checkbox" name="genre" id="genre_romance" value="Romance">Romance</label>
+
+            <br>
+            <br>
+            <input type="submit" value="SUBSEND">
+</fieldset>  
 
 </form>
 
