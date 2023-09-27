@@ -5,3 +5,39 @@ body {
     margin: 0 auto;
 }
 
+input[type=text]:focus {
+    width: 53%;
+    background-color: rgb(198, 238, 198);
+    border: 3px solid white;
+    /*Use the :focus selector to do something with the input field when it gets focus */
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    /* In this example we use the CSS transition property to animate the width of the search input when it gets focus. */
+  }
+
+input[type=text], select {
+    width: 50%;
+    padding: 6px 6px; /* Use the padding property to add space inside the text field. */
+    margin: 8px 0; /*  When you have many inputs after each other, you might also want to add some margin, to add more space outside of them */
+    box-sizing: border-box; /* Note that we have set the box-sizing property to border-box. This makes sure that the padding and eventually borders are 
+                            included in the total width and height of the elements. */
+    border: 2px solid white; /* Use the border property to change the border size and color*/
+    border-radius: 4px;   /*use the border-radius property to add rounded corners */
+}
+
+/* If you only want a bottom border, use the border-bottom property */
+
+input[type=submit] {
+    width: 16%;
+    background-color: #59aa5d; /* Use the background-color property to add a background color to the input */
+    color: white; /* the color property to change the text color*/
+    padding: 7px 10px;
+    margin: 1px 0;
+    border: 2px solid darkgreen;
+    border-radius: 4px;
+}
+  
+  
+
