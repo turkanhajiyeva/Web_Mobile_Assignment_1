@@ -1,2 +1,2 @@
 # turkanhajiyeva_cv
-contactme.html
+https://turkanhajiyeva.github.io/turkanhajiyeva_cv/
