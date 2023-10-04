@@ -1,0 +1,75 @@
+
+body {
+    background-color: #c6d0f5;
+    width: 90%;
+    font-style: italic;
+    margin: 0 auto;
+    background-size: 1560px;
+    background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
+}
+
+input[type=text]:focus {
+    width: 53%;
+    background-color: rgb(198, 238, 198);
+    border: 3px solid white;
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 6px 6px;
+    margin: 5px 0; 
+    box-sizing: border-box;  
+    border: 2px solid white;
+    border-radius: 4px;   
+}
+
+input[type=submit] {
+    width: 16%;
+    background-color: #59aa5d; 
+    color: white; 
+    padding: 7px 10px;
+    margin: 1px 0;
+    border: 2px solid darkgreen;
+    border-radius: 4px;
+}
+
+ul.navigation {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(74, 161, 88);
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+ul.navigation li {
+    background-color: rgb(74, 161, 88);
+    float: left;
+    height: 46px;
+    width: 280px;
+}
+
+ul.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover:not(.active) {
+    background-color: rgb(122, 195, 104);
+    color: rgb(5, 118, 50);
+}
+
+ul.navigation a.active {
+    color: white;
+}
+.active {
+    background-color: rgb(6, 78, 31);
+}

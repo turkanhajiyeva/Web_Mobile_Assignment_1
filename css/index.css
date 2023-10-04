@@ -1,0 +1,84 @@
+body {
+    width: 90%;
+    font-style: italic;
+    margin: 0 auto;
+    background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
+    background-size: 1560px;
+    
+}
+
+hr {
+    width: 50%;
+    border-top: 5px dotted;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    width: 220px;
+    height: 220px;
+    transform: scale(1.1);
+}
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+ul.b {
+    list-style-type: circle;
+}
+
+ul.c {
+    list-style-type: disc;
+}
+
+ul.navigation {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(74, 161, 88);
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+ul.navigation li {
+    background-color: rgb(74, 161, 88);
+    float: left;
+    height: 46px;
+    width: 280px;
+}
+
+ul.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navigation a:hover:not(.active) {
+    background-color: rgb(122, 195, 104);
+    color: rgb(5, 118, 50);
+}
+
+ul.navigation a.active {
+    color: white;
+}
+.active {
+    background-color: rgb(6, 78, 31);
+}
