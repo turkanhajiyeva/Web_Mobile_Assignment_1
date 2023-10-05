@@ -1,12 +1,18 @@
 body {
     background-color: #c6d0f5;
-    width: 90%;
+    padding:0;
     font-style: italic;
+    margin:0;
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
-    margin: 0 auto;
-    background-size: 1560px;
+    background-size: 1560PX;
+    /* overflow-x: hidden; */
 }
-
+p{
+    margin-left: 30px;
+}
+a{
+    margin-left: 30px;
+}
 input[type=text]:focus {
     width: 53%;
     background-color: rgb(198, 238, 198);
@@ -42,20 +48,20 @@ input[type=submit] {
 }
 
 ul.navigation {
-    position: fixed;
-    top: 0;
-    margin: 0;
-    list-style-type: none;
-    background-color: rgb(74, 161, 88);
-    padding: 0;
-    /* overflow: hidden; */
+    display:flex;
+   justify-content: center;
+   position: fixed;
+   top: 0;
+   width: 100vw; 
+   margin: 0;
+   list-style-type: none;
+   background-color: rgb(74, 161, 88);
+   padding: 0;
 }
 
 ul.navigation li {
-    background-color: rgb(74, 161, 88);
-    float: left;
-    height: 46px;
-    width: 280px;
+   background-color: rgb(74, 161, 88);
+   float: left;
 }
 
 ul.navigation li a {

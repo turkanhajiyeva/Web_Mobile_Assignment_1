@@ -1,4 +1,3 @@
-
 body {
     background-color: #c6d0f5;
     padding:0;
@@ -7,35 +6,6 @@ body {
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
     background-size: 1560PX;
     /* overflow-x: hidden; */
-}
-
-input[type=text]:focus {
-    width: 53%;
-    background-color: rgb(198, 238, 198);
-    border: 3px solid white;
-}
-
-input[type=text] {
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text], select {
-    width: 50%;
-    padding: 6px 6px;
-    margin: 5px 0; 
-    box-sizing: border-box;  
-    border: 2px solid white;
-    border-radius: 4px;   
-}
-
-input[type=submit] {
-    width: 16%;
-    background-color: #59aa5d; 
-    color: white; 
-    padding: 7px 10px;
-    margin: 1px 0;
-    border: 2px solid darkgreen;
-    border-radius: 4px;
 }
 
 ul.navigation {

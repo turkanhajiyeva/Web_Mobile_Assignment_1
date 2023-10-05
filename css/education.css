@@ -1,18 +1,11 @@
 body {
     background-color: #c6d0f5;
-    width: 90%;
+    padding:0;
     font-style: italic;
-    margin: 0 auto;
+    margin:0;
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
     background-size: 1560PX;
-}
-
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+    /* overflow-x: hidden; */
 }
 
 h4 {
@@ -30,20 +23,20 @@ table, tr, td, th {
   }
 
   ul.navigation {
+     display:flex;
+    justify-content: center;
     position: fixed;
     top: 0;
+    width: 100vw; 
     margin: 0;
     list-style-type: none;
     background-color: rgb(74, 161, 88);
     padding: 0;
-    /* overflow: hidden; */
 }
 
 ul.navigation li {
     background-color: rgb(74, 161, 88);
     float: left;
-    height: 46px;
-    width: 280px;
 }
 
 ul.navigation li a {
