@@ -5,14 +5,16 @@ body {
     margin:0;
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
     background-size: 1560PX;
-    /* overflow-x: hidden; */
 }
-p{
+
+p {
     margin-left: 30px;
 }
-a{
+
+a {
     margin-left: 30px;
 }
+
 input[type=text]:focus {
     width: 53%;
     background-color: rgb(198, 238, 198);
@@ -49,27 +51,27 @@ input[type=submit] {
 
 ul.navigation {
     display:flex;
-   justify-content: center;
-   position: fixed;
-   top: 0;
-   width: 100vw; 
-   margin: 0;
-   list-style-type: none;
-   background-color: rgb(74, 161, 88);
-   padding: 0;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(74, 161, 88);
+    padding: 0;
 }
 
 ul.navigation li {
-   background-color: rgb(74, 161, 88);
-   float: left;
+    background-color: rgb(74, 161, 88);
+    float: left;
 }
 
 ul.navigation li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul.navigation a:hover:not(.active) {
@@ -80,6 +82,7 @@ ul.navigation a:hover:not(.active) {
 ul.navigation a.active {
     color: white;
 }
+
 .active {
     background-color: rgb(6, 78, 31);
 }

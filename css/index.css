@@ -5,7 +5,6 @@ body {
     margin:0;
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
     background-size: 1560PX;
-    /* overflow-x: hidden; */
 }
 
 hr {
@@ -29,7 +28,6 @@ div.container img.container:hover {
     transform: scale(1.1);
 }
 
-
 ul {
     list-style-type: disc;
     margin-left: 30px;
@@ -38,6 +36,7 @@ ul {
 ul li {
     margin-left: 30px;
 }
+
 p {
     margin-left: 30px;
 }
@@ -51,7 +50,7 @@ h3 {
 }
 
 
-  ul.navigation {
+ul.navigation {
     display:flex;
     justify-content: center;
     position: fixed;
@@ -69,23 +68,22 @@ ul.navigation li {
 }
 
 ul.navigation li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul.navigation a:hover:not(.active) {
     background-color: rgb(122, 195, 104);
     color: rgb(5, 118, 50);
-
 }
 
 ul.navigation a.active {
     color: white;
 }
+
 .active {
     background-color: rgb(6, 78, 31);
-
 }

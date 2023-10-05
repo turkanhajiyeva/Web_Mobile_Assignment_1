@@ -1,36 +1,35 @@
 body {
-  background-color: #c6d0f5;
-  padding:0;
-  font-style: italic;
-  margin:0;
-  background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
-  background-size: 1560PX;
-  /* overflow-x: hidden; */
+    background-color: #c6d0f5;
+    padding:0;
+    font-style: italic;
+    margin:0;
+    background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
+    background-size: 1560PX;
 }
 
 ul.navigation {
-  display:flex;
- justify-content: center;
- position: fixed;
- top: 0;
- width: 100vw; 
- margin: 0;
- list-style-type: none;
- background-color: rgb(74, 161, 88);
- padding: 0;
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(74, 161, 88);
+    padding: 0;
 }
 
 ul.navigation li {
- background-color: rgb(74, 161, 88);
- float: left;
+    background-color: rgb(74, 161, 88);
+    float: left;
 }
 
 ul.navigation li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul.navigation a:hover:not(.active) {
@@ -41,23 +40,24 @@ ul.navigation a:hover:not(.active) {
 ul.navigation a.active {
     color: white;
 }
+
 .active {
     background-color: rgb(6, 78, 31);
 }
  
 .flex-container {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-container > div {
-  justify-content: center;
-  width: 400px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+    justify-content: center;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
   
 

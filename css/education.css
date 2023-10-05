@@ -5,7 +5,6 @@ body {
     margin:0;
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
     background-size: 1560PX;
-    /* overflow-x: hidden; */
 }
 
 h4 {
@@ -20,9 +19,9 @@ table, tr, td, th {
     border: 2px dashed;
     color: black;
     font-style: oblique;
-  }
+}
 
-  ul.navigation {
+ul.navigation {
      display:flex;
     justify-content: center;
     position: fixed;
@@ -40,11 +39,11 @@ ul.navigation li {
 }
 
 ul.navigation li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul.navigation a:hover:not(.active) {
@@ -55,6 +54,7 @@ ul.navigation a:hover:not(.active) {
 ul.navigation a.active {
     color: white;
 }
+
 .active {
     background-color: rgb(6, 78, 31);
 }
