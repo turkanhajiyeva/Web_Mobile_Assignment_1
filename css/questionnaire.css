@@ -14,7 +14,9 @@ input[type=text]:focus {
 }
 
 input[type=text] {
-    transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out; 
+    /*  Specifies how many seconds or milliseconds the transition effect takes to complete
+    ease-in-out animations start slow, speed up in the middle, and end slow */
 }
 
 input[type=text], select {
@@ -22,8 +24,12 @@ input[type=text], select {
     padding: 6px 6px;
     margin: 5px 0; 
     box-sizing: border-box;  
+    /* The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+    border-box: The width and height properties (and min/max properties) includes content, padding and border*/
     border: 2px solid white;
     border-radius: 4px;   
+    /*The border-radius property defines the radius of the element's corners.
+    This property allows you to add rounded corners to elements!  */
 }
 
 input[type=submit] {

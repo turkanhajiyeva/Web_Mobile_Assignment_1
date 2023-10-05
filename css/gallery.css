@@ -49,6 +49,8 @@ ul.navigation a.active {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    /* The flex-wrap property specifies whether the flexible items should wrap or not.
+    If the elements are not flexible items, the flex-wrap property has no effect*/
 }
 
 .flex-container > div {

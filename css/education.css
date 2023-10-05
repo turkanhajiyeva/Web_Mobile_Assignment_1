@@ -22,7 +22,7 @@ table, tr, td, th {
 }
 
 ul.navigation {
-     display:flex;
+    display:flex;
     justify-content: center;
     position: fixed;
     top: 0;
