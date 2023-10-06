@@ -12,7 +12,6 @@ hr {
     border-top: 5px dotted;
 }
 
-
 div.container img.container {
     border-radius: 50%;
     max-width: 100%;
@@ -33,9 +32,9 @@ ul {
     margin-left: 30px;
 }
 
-ul li {
+/* ul li {
     margin-left: 30px;
-}
+} */
 
 p {
     margin-left: 30px;
@@ -51,11 +50,11 @@ h3 {
 
 
 ul.navigation {
-    display:flex; /* Displays an element as a block-level flex container */
-    justify-content: center; /* justify-content property aligns the flexible container's items when the items do not use all available space */
-    position: fixed; /* The element is positioned relative to the browser window */
-    top: 0; /* The top property affects the vertical position of a positioned element */
-    width: 100vw;  /* Relative to 1% of the width of the viewport */
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
     margin: 0;
     list-style-type: none;
     background-color: rgb(74, 161, 88);
@@ -64,15 +63,15 @@ ul.navigation {
 
 ul.navigation li {
     background-color: rgb(74, 161, 88);
-    float: left; 
+    float: left;
 }
 
 ul.navigation li a {
-    display: block; /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width */
+    display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none; /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
 }
 
 ul.navigation a:hover:not(.active) {
