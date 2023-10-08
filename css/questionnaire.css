@@ -7,6 +7,16 @@ body {
     background-size: 1560PX;
 }
 
+input[type=password] {
+    transition: width 0.4s ease-in-out; 
+}
+
+input[type=password]:focus {
+    width: 15%;
+    background-color: rgb(198, 238, 198);
+    border: 3px solid white;
+}
+
 input[type=text]:focus {
     width: 53%;
     background-color: rgb(198, 238, 198);
@@ -18,7 +28,18 @@ input[type=text] {
     /*  Specifies how many seconds or milliseconds the transition effect takes to complete
     ease-in-out animations start slow, speed up in the middle, and end slow */
 }
-
+input[type=password], select {
+    width: 10%;
+    padding: 6px 6px;
+    margin: 5px 0; 
+    box-sizing: border-box;  
+    /* The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+    border-box: The width and height properties (and min/max properties) includes content, padding and border*/
+    border: 2px solid white;
+    border-radius: 4px;   
+    /*The border-radius property defines the radius of the element's corners.
+    This property allows you to add rounded corners to elements!  */
+}
 input[type=text], select {
     width: 50%;
     padding: 6px 6px;

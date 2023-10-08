@@ -6,14 +6,12 @@ body {
     background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
     background-size: 1560PX;
 }
-/* 
-p {
-    margin-left: 30px;
-}
 
-a {
-    margin-left: 30px;
-} */
+
+
+.text {
+    margin-left: 20px;
+}
 
 input[type=text]:focus {
     width: 53%;
