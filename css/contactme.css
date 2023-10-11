@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
     background-color: #c6d0f5;
     padding:0;
@@ -93,89 +93,4 @@ ul.navigation a.active {
 
 .active {
     background-color: rgb(6, 78, 31);
-=======
-body {
-    background-color: #c6d0f5;
-    padding:0;
-    font-style: italic;
-    margin:0;
-    background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
-    background-size: 1560PX;
-}
-
-
-
-.text {
-    margin-left: 20px;
-}
-
-input[type=text]:focus {
-    width: 53%;
-    background-color: rgb(198, 238, 198);
-    border: 3px solid white;
-    /*Use the :focus selector to do something with the input field when it gets focus */
-}
-
-input[type=text] {
-    transition: width 0.4s ease-in-out;
-  }
-
-input[type=text], select {
-    width: 50%;
-    padding: 6px 6px; /* Use the padding property to add space inside the text field. */
-    margin: 8px 0; /*  When you have many inputs after each other, you might also want to add some margin, to add more space outside of them */
-    box-sizing: border-box; 
-    border: 2px solid white; /* Use the border property to change the border size and color*/
-    border-radius: 4px;  
-}
-
-/* If you only want a bottom border, use the border-bottom property */
-
-input[type=submit] {
-    width: 16%;
-    background-color: #59aa5d; /* Use the background-color property to add a background color to the input */
-    color: white; /* the color property to change the text color*/
-    padding: 7px 10px;
-    margin: 1px 0;
-    border: 2px solid darkgreen;
-    border-radius: 4px;
-}
-
-ul.navigation {
-    display:flex;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    width: 100vw; 
-    margin: 0;
-    list-style-type: none;
-    background-color: rgb(74, 161, 88);
-    padding: 0;
-}
-
-ul.navigation li {
-    background-color: rgb(74, 161, 88);
-    float: left;
-}
-
-ul.navigation li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.navigation a:hover:not(.active) {
-    background-color: rgb(122, 195, 104);
-    color: rgb(5, 118, 50);
-}
-
-ul.navigation a.active {
-    color: white;
-}
-
-.active {
-    background-color: rgb(6, 78, 31);
->>>>>>> 96c15e5cc482ae20794bdd4192457802a256ab6b
 }
