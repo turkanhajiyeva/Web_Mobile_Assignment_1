@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #c6d0f5;
     padding:0;
@@ -99,4 +100,107 @@ ul.navigation a.active {
 
 .active {
     background-color: rgb(6, 78, 31);
+=======
+body {
+    background-color: #c6d0f5;
+    padding:0;
+    font-style: italic;
+    margin:0;
+    background-image: url(https://i.pinimg.com/originals/2f/fd/12/2ffd12fdc3613c6f6aa4b77c6fb98e07.jpg);
+    background-size: 1560PX;
+}
+
+input[type=password] {
+    transition: width 0.4s ease-in-out; 
+}
+
+input[type=password]:focus {
+    width: 15%;
+    background-color: rgb(198, 238, 198);
+    border: 3px solid white;
+}
+
+input[type=text]:focus {
+    width: 53%;
+    background-color: rgb(198, 238, 198);
+    border: 3px solid white;
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out; 
+    /*  Specifies how many seconds or milliseconds the transition effect takes to complete
+    ease-in-out animations start slow, speed up in the middle, and end slow */
+}
+input[type=password], select {
+    width: 10%;
+    padding: 6px 6px;
+    margin: 5px 0; 
+    box-sizing: border-box;  
+    /* The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+    border-box: The width and height properties (and min/max properties) includes content, padding and border*/
+    border: 2px solid white;
+    border-radius: 4px;   
+    /*The border-radius property defines the radius of the element's corners.
+    This property allows you to add rounded corners to elements!  */
+}
+input[type=text], select {
+    width: 50%;
+    padding: 6px 6px;
+    margin: 5px 0; 
+    box-sizing: border-box;  
+    /* The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
+    border-box: The width and height properties (and min/max properties) includes content, padding and border*/
+    border: 2px solid white;
+    border-radius: 4px;   
+    /*The border-radius property defines the radius of the element's corners.
+    This property allows you to add rounded corners to elements!  */
+}
+
+input[type=submit] {
+    width: 16%;
+    background-color: #59aa5d; 
+    color: white; 
+    padding: 7px 10px;
+    margin: 1px 0;
+    border: 2px solid darkgreen;
+    border-radius: 4px;
+}
+
+ul.navigation {
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(74, 161, 88);
+    padding: 0;
+}
+
+ul.navigation li {
+    background-color: rgb(74, 161, 88);
+    float: left;
+}
+
+ul.navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation a:hover:not(.active) {
+    background-color: rgb(122, 195, 104);
+    color: rgb(5, 118, 50);
+}
+
+ul.navigation a.active {
+    color: white;
+}
+
+.active {
+    background-color: rgb(6, 78, 31);
+>>>>>>> 96c15e5cc482ae20794bdd4192457802a256ab6b
 }
