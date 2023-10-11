@@ -8,6 +8,11 @@ body {
     background-size: 1560PX;
 }
 
+fieldset {
+    width: 80%;
+    margin-left: 40px;
+}
+
 input[type=password] {
     transition: width 0.4s ease-in-out; 
 }
