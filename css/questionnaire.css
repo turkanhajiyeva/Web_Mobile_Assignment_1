@@ -1,4 +1,3 @@
-
 body {
     background-color: #c6d0f5;
     padding:0;
@@ -34,6 +33,7 @@ input[type=text] {
     /*  Specifies how many seconds or milliseconds the transition effect takes to complete
     ease-in-out animations start slow, speed up in the middle, and end slow */
 }
+
 input[type=password], select {
     width: 10%;
     padding: 6px 6px;
@@ -46,6 +46,7 @@ input[type=password], select {
     /*The border-radius property defines the radius of the element's corners.
     This property allows you to add rounded corners to elements!  */
 }
+
 input[type=text], select {
     width: 17%;
     padding: 6px 6px;
