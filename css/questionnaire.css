@@ -18,7 +18,7 @@ input[type=password]:focus {
 }
 
 input[type=text]:focus {
-    width: 53%;
+    width: 20%;
     background-color: rgb(198, 238, 198);
     border: 3px solid white;
 }
@@ -41,7 +41,7 @@ input[type=password], select {
     This property allows you to add rounded corners to elements!  */
 }
 input[type=text], select {
-    width: 50%;
+    width: 17%;
     padding: 6px 6px;
     margin: 5px 0; 
     box-sizing: border-box;  
